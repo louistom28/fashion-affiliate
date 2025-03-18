@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amazon Products</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            background-color: #FEF5E7; /* Soft Beige */
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #232F3E; /* Amazon Navy Blue */
+            padding: 20px;
+            box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+        }
+        h1 {
+            color: white;
+            font-size: 40px;
+            font-weight: bold;
+        }
+        .product-list {
+            margin-top: 30px;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            padding: 20px;
+        }
+        .product {
+            background: #F3E5AB; /* Amazon's warm neutral tone */
+            padding: 15px;
+            margin: 10px;
+            width: 250px;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+        .product img {
+            width: 100%;
+            border-radius: 10px;
+        }
+        .product a {
+            text-decoration: none;
+            font-weight: bold;
+            color: #232F3E;
+            display: block;
+            margin-top: 10px;
+            font-size: 16px;
+        }
+        .back-btn {
+            display: inline-block;
+            margin-top: 20px;
+            padding: 12px 24px;
+            background-color: #232F3E;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            font-weight: bold;
+            border: 2px solid #232F3E;
+            transition: background 0.3s ease, color 0.3s ease;
+        }
+        .back-btn:hover {
+            background-color: #FEF5E7;
+            color: #232F3E;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Amazon Products</h1>
+    </header>
+
+    <div class="product-list">
+        <div class="product">
+            <img src="https://via.placeholder.com/200" alt="Product 1">
+            <a href="https://www.amazon.com/sample-product-1">Designer Handbag</a>
+        </div>
+        <div class="product">
+            <img src="https://via.placeholder.com/200" alt="Product 2">
+            <a href="https://www.amazon.com/sample-product-2">Luxury Perfume</a>
+        </div>
+        <div class="product">
+            <img src="https://via.placeholder.com/200" alt="Product 3">
+            <a href="https://www.amazon.com/sample-product-3">Fashion Sunglasses</a>
+        </div>
+    </div>
+
+    <a href="index.html" class="back-btn">⬅ Back to Home</a>
+</body>
+</html>
